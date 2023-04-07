@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Form</h1>
+    <form>
+      <fieldset>
+        <legend>Personal info</legend>
+        <label for="first-name">First-name</label>
+        <input autofocus id="first-name" placeholder="Boris" />
+        <label for="last-name">Last-name</label>
+        <input id="last-name" placeholder="Jonsoniuk"/>
+        <label for="birthday"> Birthday</label>
+        <input type="datetime-local" id="birthday">
+        <label>Gender</label>
+        <label for="male">Male</label>
+        <input type="radio" id="male" value="male" name="gender">
+        <label for="female">Female</label>
+        <input type="radio" id="female" value="female" name="gender">
+        <label>Drive experience</label>
+        <select name="drive experience">
+          <option value="---">---</option>
+          <option value="2" >2</option>
+          <option value="3">3</option>
+          <option value="5">5</option>
+        </select>
+      </fieldset>
+      
+      <fieldset>
+        <legend>Contacts</legend>
+        <label for="email">Email</label>
+        <input type="email" id="email">
+        <label for="phone">Phone</label>
+        <input type="number" id="phone">
+        <label for="address">Address</label>
+        <textarea name="Address" id="address" cols="30" rows="10"></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>Car info</legend>
+        <label>Brand</label>
+        <select name="brand">
+          <option value="---">---</option>
+          <option value="bmw">BMW</option>
+          <option value="toyota">Toyota</option>
+          <option value="ford">Ford</option>
+          </select>
+          <label>Model</label>
+          <select name="model">
+            <option value="---">---</option>
+            <option value="x5">X5</option>
+            <option value="i4">i4</option>
+            <option value="camry">Camry</option>
+            <option value="rav 4">RAW 4</option>
+            <option value="fiesta 1.0">Fiesta 1.0</option>
+            <option value="mondeo 4">Mondeo 4</option>
+        </select>
+        <label>Used</label>
+        <input type="checkbox">
+        <label>Color</label>
+        <label for="red">Red</label>
+        <input type="radio" id="red" name="color" value="red">
+        <label for="black">Black</label>
+        <input type="radio" id="black" name="color" value="black">
+        <label for="blue">Blue</label>
+        <input type="radio" id="blue" name="color" value="blue">
+        <label for="white">White</label>
+        <input type="radio" id="white" name="color" value="white">
+        <label for="gray">Gray</label>
+        <input type="radio" id="gray" name="color" value="gray">
+      </fieldset>
+      <input type="reset" value="cancel">
+      <input type="submit" value="ok">
+    </form>
+  </body>
+</html>
