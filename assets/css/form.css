@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 1em;
+}
+
+h1{
+  text-align: center;
+}
+
+select{
+  min-width: 50%;
+}
+
+legend{
+  font-size: 1.5em;
+  text-align: center;
+}
+
+fieldset{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 40vh;
+  width: 25vw;
+}
+
+button{
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+.general-container{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.input-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.car-colors{
+  display: flex;
+}
+
+.check-container{
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#range{
+  display: flex;
+}
+
+.buttons{
+  min-width: 200px;
+  max-width: 300px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+}
